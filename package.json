@@ -1,0 +1,21 @@
+{
+  "name": "bistroo-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "flatten-token": "node_modules/truffle-flattener/index.js contracts/BistrooToken.sol > BistrooToken.flat.sol"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.1",
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "@truffle/hdwallet-provider": "^1.2.2",
+    "truffle-flattener": "^1.5.0"
+  }
+}
