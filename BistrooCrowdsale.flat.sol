@@ -1249,9 +1249,9 @@ TimedCrowdsale,
 PostDeliveryCrowdsale,
 IndividuallyCappedCrowdsale
 {
-    uint256 private _rate = 2000;
-    uint256 private _individualCap = 10e18;
-    uint256 private _totalCap = 20e18;
+    uint256 private _rate = 7200;
+    uint256 private _individualCap = 100e18;
+    uint256 private _totalCap = 4166e18;
 
     constructor(
         address payable crowdsaleWallet,
